@@ -1,0 +1,1296 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --heading_color: #12172E;
+    --peragraph_color: #707070;
+    --hover_color: #2039EB;
+}
+
+/* ======================= common css end ======================= */
+
+/* ============================ navbar css start ===================== */
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: var(--hover_color);
+}
+
+.navbar-expand-lg .navbar-nav .nav-item .active {
+    color: var(--hover_color);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    color: var(--heading_color);
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 24px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.scnd_nav .login {
+    color: var(--heading_color);
+    font-size: 14px;
+    font-weight: 500;
+    background: #EFF3F7;
+    padding: 7px 14px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    margin-left: 10px;
+}
+
+.scnd_nav .signup {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background: var(--hover_color);
+    padding: 7px 14px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    margin-left: 12px;
+}
+
+.menu_fix {
+    position: fixed !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #f1f1f1;
+    animation: menu 1.5s;
+    -webkit-animation: menu 1s;
+}
+
+@keyframes menu {
+    0% {
+        top: -100px;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+.navbar .nav-icon {
+    color: var(--heading_color);
+}
+
+.navbar-toggler {
+    font-size: 30px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.mobile_menu {
+    margin-top: 40px;
+}
+
+/* ============================ navbar css end ===================== */
+
+/* ============================ banner css start ===================== */
+.banner_left {
+    width: 450px;
+    margin-top: 140px;
+}
+
+.banner_left h1 {
+    color: var(--heading_color);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.banner_left p {
+    color: var(--peragraph_color);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 38px;
+}
+
+.banner_left .diff_btn {
+    color: var(--heading_color) !important;
+    background: #EFF3F7 !important;
+
+}
+
+.banner_left .ban_btn {
+    width: 172px;
+    height: 52px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background: var(--hover_color);
+    text-align: center;
+    line-height: 52px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    margin-right: 18px;
+}
+
+.banner_left h6 span {
+    color: #2039EB;
+}
+
+.banner_left h6 {
+    color: #343F73;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 24px;
+    background: linear-gradient(#EEF1FF 0%, #EBE8FF 100%);
+    width: 365px;
+    line-height: 26px;
+    margin-top: 38px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* ============================ banner css end ===================== */
+
+/* ============================ sponsored css start ===================== */
+.common_head {
+    margin-bottom: 30px;
+}
+
+.common_head h3 {
+    color: var(--heading_color);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.common_head p {
+    color: var(--peragraph_color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+/* ============================ sponsored css end ===================== */
+
+/* ============================ phone collection css start ===================== */
+.product_text {
+    padding-top: 180px;
+    padding-left: 80px;
+}
+
+.product_text h6 {
+    color: var(--hover_color);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.product_text h3 {
+    color: var(--heading_color);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product_text p {
+    color: var(--peragraph_color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.product_text a {
+    width: 172px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background: var(--hover_color);
+    margin-top: 16px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.product_item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.product_item:nth-child(even) .phn_text {
+    padding-left: 0;
+}
+
+/* ============================ phone collection css end ===================== */
+
+/* ============================ testimonial css start ===================== */
+#testimonial {
+    padding-bottom: 40px;
+}
+
+.test_box {
+    background: #EFF3F7;
+    padding: 24px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.test_box h4 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.test_box p {
+    color: var(--heading_color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.test_box h4 span i {
+    color: #FF8A00;
+}
+
+.test_box .person .img {
+    width: 62px;
+    height: 62px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+}
+
+.test_box .person .text h5 {
+    margin-top: 12px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.test_box .person .text h6 {
+    color: var(--peragraph_color);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.test_item {
+    margin: 0 12px;
+}
+
+.test_arrows {
+    margin-top: 40px;
+}
+
+#testimonial .prev:hover,
+#testimonial .next:hover {
+    color: #fff;
+    background: var(--hover_color);
+}
+
+#testimonial .prev {
+    color: var(--heading_color);
+    font-size: 30px;
+    width: 72px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: #EFF3F7;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#testimonial .next {
+    color: var(--heading_color);
+    font-size: 30px;
+    width: 72px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: #EFF3F7;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+/* ============================ testimonial css end ===================== */
+
+/* ============================ tapAway css start ===================== */
+#tapAway {
+    padding: 80px 0;
+    background: linear-gradient(#2039EB 0%, #2B6BCC 100%);
+    margin-bottom: 80px;
+}
+
+#tapAway h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#tapAway h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.main_tap .tap_item {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.main_tap .tap_item h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    height: 70px;
+}
+
+.main_tap .tap_item p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.main_tap .tap_item p span {
+    display: block;
+    margin-top: 24px;
+}
+
+/* ============================ tapAway css end ===================== */
+
+/* ============================ trial css start ===================== */
+#trial {
+    padding-bottom: 80px;
+}
+
+.trial_item.popular_trial {
+    background: linear-gradient(#DFE5FF 0%, #F1EFFF 100%);
+}
+
+.trial_item.popular_trial .trial_btm .trial_btn {
+    background: var(--hover_color);
+    color: #fff;
+}
+
+.trial_item {
+    background: #EFF3F7;
+    padding: 36px 18px 18px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.trail_top {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.trail_top img {
+    position: absolute;
+    left: -18px;
+    top: -30px;
+}
+
+.trail_top .trial_text {
+    padding-left: 135px;
+    height: 135px;
+}
+
+.trail_top .trial_text span {
+    color: var(--hover_color);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.trail_top .trial_text h4 {
+    color: var(--heading_color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.trail_top .trial_text h5 {
+    color: var(--heading_color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.trial_item ul li img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.trial_item ul {
+    height: 360px;
+    margin-bottom: 70px;
+}
+
+.trial_item ul li {
+    position: relative;
+    color: var(--peragraph_color);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.trial_item ul li a {
+    color: var(--hover_color);
+}
+
+.trial_item .trial_btm .trial_btn {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: #FFFFFF;
+    color: var(--heading_color);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* ============================ trial css end ===================== */
+
+/* ============================ login css start ===================== */
+#register .login_form {
+    margin-top: 100px;
+}
+
+.login_form {
+    margin-top: 145px;
+}
+
+.login_form h3 {
+    color: var(--heading_color);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.login_form .password {
+    margin-bottom: 0;
+}
+
+.login_form input {
+    width: 536px;
+    height: 52px;
+    padding: 20px;
+    outline: 0;
+    border: 1px solid #D5DAF3;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.login_form textarea {
+    width: 536px;
+    height: 172px;
+    padding: 20px;
+    outline: 0;
+    border: 1px solid #D5DAF3;
+    margin-bottom: 24px;
+    resize: none;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.login_form .login_btn {
+    color: #fff;
+    width: 536px;
+    height: 52px;
+    line-height: 52px;
+    outline: 0;
+    border: 0;
+    background: var(--hover_color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.login_form .forget_pass {
+    margin-left: 70%;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    text-decoration: underline;
+}
+
+/* ============================ login css end ===================== */
+
+/* ============================ feature css start ===================== */
+.feature_banner {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.feature_video {
+    margin-bottom: 25px;
+}
+
+.feature_video iframe {
+    width: 100% !important;
+    height: 590px !important;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.product_item .product_img .img {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 480px;
+    height: 480px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.feture_product:last-child {
+    margin-bottom: 80px;
+}
+
+.feture_product {
+    margin-top: 60px;
+}
+
+.feture_product .product_text {
+    margin-top: -40px;
+}
+
+.feture_text h3 {
+    color: var(--hover_color);
+}
+
+.banner_right .img {
+    overflow: hidden;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+
+/* ============================ feature css end ===================== */
+
+/* ============================ white label page css start ===================== */
+.white_banner {
+    padding: 80px 0;
+}
+
+.white_product .product_text {
+    margin-top: -80px;
+}
+
+.white_product:last-child {
+    margin-bottom: 80px;
+}
+
+.white_product {
+    margin-top: 60px;
+}
+
+#comparison {
+    padding: 70px 0 80px;
+    background: linear-gradient(#2039EB 0%, #2B6BCC 100%);
+    margin-bottom: 70px;
+}
+
+#comparison h3 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+#comparison .chart {
+    padding: 40px 40px;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+#comparison .chart .chart_table {
+    width: 100%;
+}
+
+#comparison .chart .chart_table .head-1 {
+    width: 70%;
+}
+
+#comparison .chart .chart_table .head-2 {
+    width: 15%;
+}
+
+#comparison .chart .chart_table .head-3 {
+    width: 15%;
+}
+
+#comparison .chart .chart_table h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#comparison .chart .chart_table .chart_head {
+    padding-right: 30px;
+}
+
+#comparison .chart .chart_table .body-1 h5 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#comparison .chart .chart_table .body-1 {
+    width: 70%;
+}
+
+#comparison .chart .chart_table .body-2 {
+    width: 15%;
+}
+
+#comparison .chart .chart_table .body-3 {
+    width: 15%;
+}
+
+#comparison .chart .chart_table .chart_body {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    margin-bottom: 20px;
+}
+
+#comparison .chart .chart_table .chart_table_body {
+    scrollbar-width: 12px;
+    scrollbar-color: #fff rgba(255, 255, 255, 0.24);
+    overflow-y: scroll;
+    padding-right: 20px;
+    height: 290px;
+}
+
+/* ============================ white label page css end ===================== */
+
+/* ============================ contact css start ===================== */
+#contact {
+    margin-bottom: 60px;
+}
+
+#contact .login_form {
+    margin-top: 80px;
+}
+
+.contact_text {
+    margin-top: 222px;
+}
+
+.contact_text h1 {
+    color: var(--heading_color);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.contact_text p {
+    color: var(--peragraph_color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.contact_text span {
+    color: var(--heading_color);
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-top: 22px;
+}
+
+
+/* ============================ contact css end ===================== */
+
+/* ============================ about css start ===================== */
+.about_main {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.about_text h1 {
+    margin-top: 80px;
+    color: var(--heading_color);
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.about_text p {
+    color: var(--heading_color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 65px;
+}
+
+.about_text i {
+    font-size: 32px;
+    color: var(--hover_color);
+}
+
+.about_item:hover {
+    background: linear-gradient(#D6E9FF 0%, #D8DFFF 100%);
+}
+
+.about_item {
+    padding: 24px 24px;
+    background: #EFF3F7;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.about_item .about_top h4 {
+    color: var(--heading_color);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.about_item .about_top h5 {
+    color: var(--hover_color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about_item .about_top .ab_img {
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 12px;
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.about_item .about_mid {
+    height: 300px;
+}
+
+.about_item:hover .about_mid i {
+    color: var(--hover_color);
+}
+
+.about_item .about_mid i {
+    color: var(--heading_color);
+    font-size: 24px;
+}
+
+.about_item .about_mid p {
+    color: var(--heading_color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.about_item .about_btm a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    background: var(--hover_color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.about_item .ab_item .ab_item_img {
+    overflow: hidden;
+    margin-right: 15px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ============================ about css end ===================== */
+
+/* ============================ blog css start ===================== */
+#blog {
+    padding: 70px 0 80px;
+}
+
+.blog_head h1 {
+    color: var(--heading_color);
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.blog_text h5 {
+    color: var(--peragraph_color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.blog_text h5 i {
+    margin-right: 10px;
+}
+
+.blog_text h3 {
+    color: var(--heading_color);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.blog_text h6 {
+    color: var(--hover_color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blog_text p {
+    color: var(--peragraph_color);
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-right: 140px;
+    text-align: justify;
+}
+
+.blog_text a {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    background: var(--hover_color);
+    width: 172px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.blog_img {
+    overflow: hidden;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+#blogContent {
+    padding-bottom: 80px;
+}
+
+.blog_item {
+    margin: 0 12px;
+}
+
+.blog_item .blog_img {
+    overflow: hidden;
+    height: 232px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.blog_item h5 {
+    color: var(--peragraph_color);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.blog_item h4 {
+    color: var(--heading_color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blog_item h6 {
+    color: var(--hover_color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blog_arrows {
+    margin-top: 40px;
+}
+
+#blogContent .blog_arrows .prev_blog:hover,
+#blogContent .blog_arrows .next_blog:hover {
+    color: #fff;
+    background: var(--hover_color);
+}
+
+#blogContent .blog_arrows .prev_blog {
+    color: var(--heading_color);
+    font-size: 30px;
+    width: 72px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: #EFF3F7;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+#blogContent .blog_arrows .next_blog {
+    color: var(--heading_color);
+    font-size: 30px;
+    width: 72px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    background: #EFF3F7;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    cursor: pointer;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+/* ============================ blog css end ===================== */
+
+/* ============================ faq css start ===================== */
+#faq {
+    padding: 80px 0;
+}
+
+.faq_head h1 {
+    color: var(--heading_color);
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.search_form {
+    position: relative;
+    width: 536px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #D5DAF3;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.search_form input {
+    border: 0;
+    outline: 0;
+    padding-left: 45px;
+    width: 95%;
+    background: transparent;
+}
+
+.search_form button {
+    color: var(--peragraph_color);
+    font-size: 24px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border: 0;
+    background: transparent;
+}
+
+.con_form .accordion-item {
+    margin-bottom: 15px;
+    border: 1px solid #D5DAF3;
+    border-top: 0;
+}
+
+.con_form .accordion {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: 12px;
+    scrollbar-color: #2039EB #EFF3F7;
+}
+
+.con_form {
+    margin-top: 40px;
+}
+
+.con_form .accordion-button:focus {
+    z-index: 3;
+    border: 0;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+}
+
+.con_form .accordion-button {
+    background: #fff;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--heading_color);
+}
+
+.con_form .accordion-body {
+    padding: 0 20px 20px;
+}
+
+.con_form .accordion-header {
+    border-top: 1px solid #D5DAF3;
+}
+
+.con_form .accordion-button:hover {
+    color: var(--heading_color);
+}
+
+.con_form .accordion-button:not(.collapsed) {
+    color: var(--heading_color);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+    background: #fff;
+}
+
+.con_form .accordion-button:not(.collapsed):hover {
+    color: var(--heading_color);
+}
+
+.con_form .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+.con_form .accordion-body {
+    color: var(--peragraph_color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ============================ faq css end ===================== */
+
+
+/* ============================ footer css start ===================== */
+#footer {
+    background: linear-gradient(#D8E7FF 0%, #F1EFFF 100%);
+    padding: 60px 0;
+}
+
+.footer_1 p {
+    color: var(--heading_color);
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding-right: 70px;
+}
+
+.footer_1 .foot_icon {
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 12px;
+    background: var(--hover_color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.footer_header h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer_2 ul li a {
+    color: var(--heading_color);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.footer_3 a {
+    margin-bottom: 12px;
+}
+
+.footer_4 form input {
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    background: #fff;
+    padding: 18px 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.footer_4 form button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    background: var(--hover_color);
+    width: 138px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 18px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* ============================ footer css end ===================== */
